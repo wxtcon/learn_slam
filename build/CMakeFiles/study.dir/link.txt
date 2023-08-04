@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/study.dir/main.cpp.o  -o study  -Wl,-rpath,/home/wangxt/learn_slam/build libhello_shared.so 
