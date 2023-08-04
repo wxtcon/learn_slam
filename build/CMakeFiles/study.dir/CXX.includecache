@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wangxt/learn_slam/libHelloSLAM.h
+
+/home/wangxt/learn_slam/main.cpp
+iostream
+-
+ctime
+-
+cmath
+-
+eigen3/Eigen/Eigen
+-
+eigen3/Eigen/Dense
+-
+eigen3/Eigen/Geometry
+-
+libHelloSLAM.h
+/home/wangxt/learn_slam/libHelloSLAM.h
+

@@ -54,7 +54,8 @@ int main() {
     v_rotation = q * v;
     // cout << v_rotation << endl;
 
-    cout << (q * Eigen::Quaterniond(0, 1, 0, 0) * q.inverse()).coeffs() << endl;
+    // cout << (q * Eigen::Quaterniond(0, 1, 0, 0) * q.inverse()).coeffs() << endl;
+
 
     
     printfSLAM();
