@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"x11\" -D_LINUX_
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /usr/include/eigen3 
 

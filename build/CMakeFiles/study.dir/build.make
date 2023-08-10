@@ -80,6 +80,25 @@ study_EXTERNAL_OBJECTS =
 study: CMakeFiles/study.dir/main.cpp.o
 study: CMakeFiles/study.dir/build.make
 study: libhello_shared.so
+study: /usr/local/lib/libpango_glgeometry.so
+study: /usr/local/lib/libpango_plot.so
+study: /usr/local/lib/libpango_python.so
+study: /usr/local/lib/libpango_scene.so
+study: /usr/local/lib/libpango_tools.so
+study: /usr/local/lib/libpango_video.so
+study: /usr/local/lib/libpango_geometry.so
+study: /usr/local/lib/libtinyobj.so
+study: /usr/local/lib/libpango_display.so
+study: /usr/local/lib/libpango_vars.so
+study: /usr/local/lib/libpango_windowing.so
+study: /usr/local/lib/libpango_opengl.so
+study: /usr/lib/x86_64-linux-gnu/libGLEW.so
+study: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+study: /usr/lib/x86_64-linux-gnu/libGLX.so
+study: /usr/lib/x86_64-linux-gnu/libGLU.so
+study: /usr/local/lib/libpango_image.so
+study: /usr/local/lib/libpango_packetstream.so
+study: /usr/local/lib/libpango_core.so
 study: CMakeFiles/study.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wangxt/learn_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable study"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/study.dir/link.txt --verbose=$(VERBOSE)
